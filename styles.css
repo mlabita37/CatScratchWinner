@@ -8,8 +8,7 @@ body {
   background-position: center center;
 }
 #ticket {
-  width: 500px;
-  height: 600px;
+  width: 98%;
   background-color: gold;
   border: 5px solid #fff;
   margin: 20px auto 0;
@@ -22,39 +21,47 @@ body {
   background-repeat:   no-repeat;
   background-position: center center;
   /*cursor: url('images/quarter.png', auto);*/
-  cursor:url(images/quarter.png),auto;
+  cursor:url(images/sword-2.png),auto;
 }
 #title{
-  font-size: 4em;
+  font-size: 2.5em;
   color: #fff;
   width: 100%;
   background-color: goldenrod;
   margin-top: -10px;
-  padding: 0;
+  padding: 10px 0;
   text-shadow: 2px 2px #333;
   border: 1px solid whitesmoke;
 }
 p{
   color: #fff;
+  font-size: 1.25em;
+  text-shadow: 2px 2px 2px #333;
 }
-.row {
-  width: 98%;
-  margin: 30px auto 0;
+
+.row:nth-child(5){
+  margin: 50px auto;
 }
+
+.row:nth-child(3),
+.row:nth-child(4){
+  margin: 50px auto 0;
+}
+
 .square {
   display: inline-block;
-  width: 90px;
-  height: 90px;
+  width: 18%;
   background-color: goldenrod;
   /*background-image:url('https://www.niftynuthouse.com/images/P/milk%20chocolate%20gold%20coins.jpg');*/
   border: 2px solid whitesmoke;
-  margin: 15px 10px 0 0;
+  margin: 0 10px 0 0;
   text-align: center;
   font-size: 3em;
   color:#fff;
   opacity: 1;
-  line-height: 100px;
+  line-height: 1.6em;
 }
+
 .square:first-child{
   margin-left: 10px;
 }
@@ -63,17 +70,16 @@ p{
 }
 .prize {
   display: none;
-  width: 90px;
-  height: 90px;
+  width: 18%;
   background-color: mediumorchid;
   background-image:url('http://www.zingerbugimages.com/backgrounds/starry_sky_glitter_background_seamless.gif');
-  border: 2px solid #fff;
-  margin: 15px 10px 0 0;
+  border: 2px solid whitesmoke;
+  margin: 0 10px 0 0;
   text-align: center;
   font-size: 3em;
   color:#fff;
   opacity: 1;
-  line-height: 100px;
+  line-height: 1.6em;
 }
 
 .prize:first-child{
@@ -85,11 +91,23 @@ p{
 #playAgain{
   width: 80px;
   height: 40px;
-  margin: 60px auto;
+  margin: 20px auto;
   text-align: center;
   background-color: skyblue;
   color: #fff;
   background-image: url('https://media.giphy.com/media/pWTCU3FwkfnO/giphy.gif');
   font-weight: bold;
   cursor: pointer;
+}
+
+/*----- Media Queries -----*/
+@media (min-width: 668px) {
+  #ticket {
+    max-width: 40%;
+  }
+
+  .square, .prize {
+    width: 20%;
+  }
+
 }
