@@ -1,0 +1,95 @@
+body {
+  font-family: 'Pirata One', cursive;
+  background-color: whitesmoke;
+  text-align: center;
+  background-image: url('images/map.jpg');
+  background-size: cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+#ticket {
+  width: 500px;
+  height: 600px;
+  background-color: gold;
+  border: 5px solid #fff;
+  margin: 20px auto 0;
+  opacity: 1;
+  text-align: center;
+  padding-top: 10px;
+  box-shadow: 2px 10px 10px #333;
+  background-image:url('http://sf.co.ua/14/03/wallpaper-2111385.jpg');
+  background-size: cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  /*cursor: url('images/quarter.png', auto);*/
+  cursor:url(images/quarter.png),auto;
+}
+#title{
+  font-size: 4em;
+  color: #fff;
+  width: 100%;
+  background-color: goldenrod;
+  margin-top: -10px;
+  padding: 0;
+  text-shadow: 2px 2px #333;
+  border: 1px solid whitesmoke;
+}
+p{
+  color: #fff;
+}
+.row {
+  width: 98%;
+  margin: 30px auto 0;
+}
+.square {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  background-color: goldenrod;
+  /*background-image:url('https://www.niftynuthouse.com/images/P/milk%20chocolate%20gold%20coins.jpg');*/
+  border: 2px solid whitesmoke;
+  margin: 15px 10px 0 0;
+  text-align: center;
+  font-size: 3em;
+  color:#fff;
+  opacity: 1;
+  line-height: 100px;
+}
+.square:first-child{
+  margin-left: 10px;
+}
+.square:last-child{
+  margin-right: 0;
+}
+.prize {
+  display: none;
+  width: 90px;
+  height: 90px;
+  background-color: mediumorchid;
+  background-image:url('http://www.zingerbugimages.com/backgrounds/starry_sky_glitter_background_seamless.gif');
+  border: 2px solid #fff;
+  margin: 15px 10px 0 0;
+  text-align: center;
+  font-size: 3em;
+  color:#fff;
+  opacity: 1;
+  line-height: 100px;
+}
+
+.prize:first-child{
+  margin-left: 10px;
+}
+.prize:last-child{
+  margin-right: 0;
+}
+#playAgain{
+  width: 80px;
+  height: 40px;
+  margin: 60px auto;
+  text-align: center;
+  background-color: skyblue;
+  color: #fff;
+  background-image: url('https://media.giphy.com/media/pWTCU3FwkfnO/giphy.gif');
+  font-weight: bold;
+  cursor: pointer;
+}
