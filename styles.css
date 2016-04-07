@@ -20,7 +20,6 @@ body {
   background-size: cover;
   background-repeat:   no-repeat;
   background-position: center center;
-  /*cursor: url('images/quarter.png', auto);*/
   cursor:url(images/sword-2.png),auto;
 }
 #title{
@@ -52,7 +51,6 @@ p{
   display: inline-block;
   width: 18%;
   background-color: goldenrod;
-  /*background-image:url('https://www.niftynuthouse.com/images/P/milk%20chocolate%20gold%20coins.jpg');*/
   border: 2px solid whitesmoke;
   margin: 0 10px 0 0;
   text-align: center;

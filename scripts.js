@@ -1,10 +1,5 @@
 console.log('...sup!');
 
-//make two arrays, one of $amounts and one of icons
-//run a math.random to choose the array
-//run an if that says, if array = prizeArray, then change the text
-//else if array = iconArray, then add and <i> tag with the the class from the array
-
 function addValue(){
 var prizeArray = ['$0', '$1', '$10', '$0', '$25', '$50', '$0', '$100', '$150', '$0', '$250', '$300', '$0', '$400', '$500', '$0'];
 
